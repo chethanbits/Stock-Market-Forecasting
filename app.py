@@ -5,7 +5,7 @@ from keras.models import load_model
 import matplotlib.pyplot as plt
 import yfinance as yf
 
-st.title("Stock Price Forcasting App")
+st.title("Stock Price Forecasting App")
 
 stock = st.text_input("Enter the Stock ID", "GOOG")
 
